@@ -81,18 +81,24 @@ ul {
         padding-top: 32px;
         padding-bottom: 32px;
 }
-.smarthone {
-        width: 16px;
-        height: 12px;
-}
 
 .link-li:hover, .link-li:focus {
     color: #2196F3;
 }
 
-.link:hover, .smarthone {
-        color: #2196F3;
+.link:hover .smarthone , .link:focus .smarthone {
         fill: #2196F3;
+}
+.envelope {
+        margin-right: 10px;
+        fill: #757575;
+}
+.link:hover .envelope,
+.link:focus .envelope {
+        fill: #2196F3;
+}
+.link:hover, .link:focus {
+        color: #2196F3;
 }
 /* Main */
 .container {
