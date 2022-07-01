@@ -161,6 +161,7 @@ ul {
 /* < !-- Увага,
 пунктуальність,
 планування та сучасні технології --> */
+
 .section-tehnologi {
         padding-bottom: 0;
 }
@@ -173,7 +174,38 @@ ul {
 .job-li {
         width: 270px;
 }
-
+.div-antenna {
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+}
+.antenna {
+        margin: 25px 100px;
+}
+.div-clock {
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;      
+}
+.clock {
+        margin: 25px 100px;   
+}
+.div-diagram {
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;      
+}
+.diagram {
+        margin: 25px 100px;    
+}
+.div-astronaut {
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;      
+}
+.astronaut {
+        margin: 25px 100px;     
+}
 .menu {
         font-weight: 700;
         font-size: 14px;
@@ -220,6 +252,11 @@ ul {
  }
  .team-ul li:not(:last-child) {
         margin-right: 30px;
+ }
+ .team-li {
+        border-radius: 0px 0px 4px 4px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
  }
 .member {
         font-weight: 500;
