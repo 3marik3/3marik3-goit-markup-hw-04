@@ -261,9 +261,7 @@ ul {
 .icon-ul {
         display: flex;
 }
-.facebook {
-        color: #2196F3;
-}
+
 .member {
         font-weight: 500;
         font-size: 16px;
@@ -295,7 +293,17 @@ ul {
 }
 .clients-ul {
         display: flex;
+        margin-top: 50px;
 }
+.clients-ul li:not(:last-child) {
+        margin-right: 30px;
+}
+.div-logo {
+        border-radius: 4px;
+        border-style: groove;
+        border-width: 1px;
+}
+
 /* Footer */
 .webstudio-footer {
     font-family: 'Raleway';
