@@ -175,38 +175,17 @@ ul {
 .job-li {
         width: 270px;
 }
-.div-antenna {
+.div-tehnologi {
         background-color: #F5F4FA;
+        width: 270px;
+        height: 120px;
         border-radius: 4px;
         margin-bottom: 30px;
+                justify-content: center;
+                        align-items: center;
+                        display: flex;
 }
-.antenna {
-        margin: 25px 100px;
-}
-.div-clock {
-        background-color: #F5F4FA;
-        border-radius: 4px;
-        margin-bottom: 30px;      
-}
-.clock {
-        margin: 25px 100px;   
-}
-.div-diagram {
-        background-color: #F5F4FA;
-        border-radius: 4px;
-        margin-bottom: 30px;      
-}
-.diagram {
-        margin: 25px 100px;    
-}
-.div-astronaut {
-        background-color: #F5F4FA;
-        border-radius: 4px;
-        margin-bottom: 30px;      
-}
-.astronaut {
-        margin: 25px 100px;     
-}
+
 .menu {
         font-weight: 700;
         font-size: 14px;
@@ -344,17 +323,16 @@ ul {
 }
 
 .logo {
-        fill: #757575;
-        margin: 16px 32px;
+        fill: #AFB1B8;
 }
 
 /* Footer */
-.div-contacts-icons {
+.footers {
         display: flex;
 }
-.div-icons {
+.footer-icons {
+        margin-top: 10px;
         margin-left: 70px;
-        margin-top: -20px;
 }
 .footer-p {
         color: #FFFFFF;
@@ -425,9 +403,7 @@ margin-top: 0;
         padding-top: 60px;
         padding-bottom: 60px;
 }
-.div-contacts {
-        margin-top: 20px;
-}
+
 /* Portfolio */
 .btn-li {
         font-weight: 500;
